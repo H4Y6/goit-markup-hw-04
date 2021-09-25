@@ -113,6 +113,11 @@ header{
 .contact-icon{
   margin-right: 10px;
 }
+.contact-icon-last{ 
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+  }
 
 .contact-item:first-child{
   margin-right: 30px;}
@@ -151,7 +156,7 @@ header{
   text-align: center;
 }
 
-.bgi{
+.hero-overlay{
   max-width: 1600px;
   height: 600px;
   margin: 0 auto;  
@@ -327,13 +332,11 @@ padding: 16px 32px 30px ;
 .footer{ 
   background-color:var(--bg-color);
   }
-.footer-grand{
+.footer-wrapper{
   display: flex;
-}
-
-.footer-box-west{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  width: 1200px;
+  padding:60px 15px ;
+  margin: 0 auto;
 }
 
 address{
@@ -374,13 +377,13 @@ address{
   margin-bottom: 20px;
 }
 
-/* ---footer center--- */
+/* ---footer middle--- */
 
-.footer-center{
-  padding: 72px 70px 100px;
+.footer-wrapper-middle{
+  padding: 12px 70px 40px;
 }
 
-.footer-center-title{
+.footer-middle-title{
   margin-bottom: 20px;
   text-transform: uppercase;
   color: #FFFFFF;
