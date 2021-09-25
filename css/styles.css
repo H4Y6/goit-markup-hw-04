@@ -116,8 +116,7 @@ header{
 .contact-icon-last{ 
   position: relative;
   top: 2px;
-  margin-right: 10px;
-  }
+}
 
 .contact-item:first-child{
   margin-right: 30px;}
