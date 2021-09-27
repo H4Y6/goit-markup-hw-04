@@ -141,11 +141,6 @@ header{
 .contact-link:hover{
   color: var(--prime-color);}
 
-.contact-link:focus .contact-icon,
-.contact-link:hover .contact-icon{
-   fill: var(--prime-color);
-}
-
 /* hero */
 
 .hero{
