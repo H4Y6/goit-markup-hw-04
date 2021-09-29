@@ -331,15 +331,16 @@ justify-content: center;
 /* =======footer========= */
 
 .footer{ 
+  padding: 60px 0;
   background-color:var(--bg-color);
-  }
+}
+
 .footer-block{
   display: flex;
+  align-items: baseline;
 }
 
 .footer-start{
-    padding-top: 60px ;
-    padding-bottom: 60px;
     margin-right: 70px;
 }
 
@@ -384,7 +385,6 @@ address{
 /* ---footer middle--- */
 
 .footer-middle{
-  padding: 72px 0 100px;
   margin-right: 93px;
 }
 
@@ -412,9 +412,9 @@ address{
 
 /* footer final */
 
-.footer-final{
-  padding: 72px 0 94px;
-}
+/* .footer-final{
+ 
+} */
 
 /* =========portfolio=========== */
 
